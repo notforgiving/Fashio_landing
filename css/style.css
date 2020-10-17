@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #22262A;
+}
+
+a,a:visited,a:hover{
+    text-decoration: none;
+    color: #22262A;
+}
+
+.container{
+    max-width: 1380px;
+    margin: auto;
+}
+
+.header{
+    padding: 33px 0;
+}
+
+.nav__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.nav__menu-item {
+    padding: 0 15px;
+}
+
+.shopping__card-item{
+    padding: 0 25px;
+}
