@@ -141,3 +141,53 @@ a,a:focus,a:hover,a:visited{
     padding: 4px 23px;
     z-index: 3;
 }
+
+/*WOMEN’S FASHION*/
+.woman {
+    margin-top: 111px;
+}
+.woman__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.woman__text {
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 65px;
+}
+.woman__block {
+    display: flex;
+    justify-content: space-between;
+}
+.woman__card {
+}
+.woman__card-img {
+    margin-bottom: 38px;
+}
+.woman__card-info {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 3px;
+}
+.woman__card-name {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 3px;
+}
+.woman__card-costs {
+    font-size: 15px;
+    line-height: 22px;
+}
+.card__cost-prev {
+    text-decoration: line-through;
+    margin-right: 26px;
+}
+.card__cost-current {
+    color: #CF2929;
+}
