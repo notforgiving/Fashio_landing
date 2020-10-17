@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Fasion Landing</title>
@@ -13,29 +15,61 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="nav__menu">
-                <div class="logo">
-                    <a href="#" class="logo-link">
-                        <img class="logo-img" src="img/YOUR LOGO.svg" alt="Logo">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="#" class="header__logo-link">
+                        <img class="logo__img" src="img/logo.svg" alt="logo" >
                     </a>
-                    </div>
-                <div class="nav">
-                    <ul class="nav__menu">
-                        <a href="#"><li class="nav__menu-item">HOME</li></a>
-                         <a href="#"><li class="nav__menu-item">SHOP</li></a>
-                         <a href="#"><li class="nav__menu-item">LOOKBOOK</li></a>
-                         <a href="#"><li class="nav__menu-item">FEATURES</li></a>
-                         <a href="#"><li class="nav__menu-item">PAGES</li></a>
-                         <a href="#"><li class="nav__menu-item">BLOG</li></a>
+                </div>
+                <div class="nav__menu">
+                    <ul class="menu__inner">
+                        <a class="menu__link" href="#">
+                            <li class="menu__item">HOME</li>
+                        </a>
+                        <a class="menu__link" href="#">
+                            <li class="menu__item">SHOP</li>
+                        </a>
+                        <a class="menu__link" href="#">
+                            <li class="menu__item">LOOKBOOK</li>
+                        </a>
+                        <a class="menu__link" href="#">
+                            <li class="menu__item">FEATURES</li>
+                        </a>
+                        <a class="menu__link" href="#">
+                            <li class="menu__item">PAGES</li>
+                        </a>
+                        <a class="menu__link" href="#">
+                            <li class="menu__item">BLOG</li>
+                        </a>
                     </ul>
                 </div>
                 <div class="shopping__card">
-                    <a href="#"><i class="shopping__card-item fa fa-search" aria-hidden="true"></i></a>
-                    <a href="#"><i class="shopping__card-item fa fa-heart-o" aria-hidden="true"></i></a>
-                    <a href="#"><i class="shopping__card-item fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    <a class="shoppind__link" href="#">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                    <a class="shoppind__link" href="#">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </a>
+                    <a class="shoppind__link" href="#">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </header>
+
+    <section class="trand__header">
+        <div class="container">
+            <div class="trand__header-inner">
+                <p class="trand__text">NEW TREND</p>
+                <h1 class="trand__title">COLLUSION</h1>
+                <p class="trand__text">An exclusive selection of this season's trends.</p>
+                <div class="trand__buttons">
+                    <button class="btn">DISCOVER</button>
+                    <button class="btn">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
