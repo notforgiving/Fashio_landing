@@ -4290,7 +4290,7 @@ a:visited {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 375px) {
   .trand__header {
     background-image: none;
   }
