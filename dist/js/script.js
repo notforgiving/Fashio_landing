@@ -1,7 +1,7 @@
 const menuWrap = document.querySelector(".header__inner");
 const menu = document.querySelector("[data-burger]");
 
-if (window.innerWidth < 768) {
+if (window.innerWidth < 769) {
   showBurger();
 }
 
@@ -27,7 +27,7 @@ function showBurger() {
 
     let container = document.querySelector('.container').clientWidth
     console.log(container)
-    menu.style.padding = `0 0 0 ${(window.innerWidth-container)/2}px`
+    menu.style.padding = `0 0 0 ${(window.innerWidth-container+40)/2}px`
     document.querySelector(".burger__line").classList.toggle("active");
     menu.classList.toggle('hide')
   });
@@ -39,7 +39,7 @@ function hideBurger() {
 }
 
 window.onresize = () => {
-  if (window.innerWidth < 768) {
+  if (window.innerWidth < 769) {
     if (!document.querySelector(".burger__wrap")) {
      showBurger();
     }
