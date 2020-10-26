@@ -4511,3 +4511,8 @@ a:visited {
     padding-bottom: 50px;
   }
 }
+
+.animate__animated {
+  -webkit-animation-fill-mode: none !important;
+  animation-fill-mode: none !important;
+}
