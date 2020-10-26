@@ -50,3 +50,21 @@ window.onresize = () => {
     }
   }
 };
+
+/*Показ меню в футере при нажатии на линки при 480 пикселях */
+let wrap_link = document.querySelector('.footer__menu-colomns')
+
+let colomns = wrap_link.querySelectorAll('.colomns__item')
+
+colomns.forEach((item)=>{
+  let title = item.querySelector('.colomns__item-title')
+  title.addEventListener('click',()=>{
+    let link = item.querySelectorAll('.colomns__item-link')
+    link.forEach((elem)=>{
+      if (elem.style.display!='block')
+        elem.style.display = 'block'
+      else
+        elem.style.display = 'none'
+    })
+  })
+})
