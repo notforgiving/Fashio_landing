@@ -3929,12 +3929,12 @@ a:visited {
   line-height: 22px;
 }
 
-.person__card-costs-prev {
+.card__cost-prev {
   text-decoration: line-through;
   margin-right: 26px;
 }
 
-.person__card-costs-current {
+.card__cost-current {
   color: #CF2929;
 }
 
